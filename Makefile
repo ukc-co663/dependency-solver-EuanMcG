@@ -8,4 +8,4 @@ all:
 		#####Dependencies have been installed#####
 		#####Building project with Maven#####
 		mvn install
-		cd target/ && java -jar depsolver-1.0-SNAPSHOT.jar test.txt;ls;
+		cd target/ && java -jar depsolver-1.0-SNAPSHOT.jar test.txt;
