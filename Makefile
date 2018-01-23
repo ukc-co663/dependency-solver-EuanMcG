@@ -8,4 +8,5 @@ all:
 		#####Dependencies have been installed#####
 		#####Building project with Maven#####
 		mvn install
+		mvn clean compile assembly:single
 		cd target/ && java -jar depsolver-1.0-SNAPSHOT.jar test.txt;
